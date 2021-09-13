@@ -1,0 +1,213 @@
+/* AÇIKLAMA: CSS Dosyası */
+
+/* Boşlukları Sıfırla*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#sayfa{
+    width:900px;
+    min-height:600px;
+    border-style:solid;
+    border-width:1px;
+    margin:auto;
+}
+
+/*Banner*/
+#banner{
+    width:900px;
+    height:100px;
+    border-style:solid;
+    border-width:1px;
+    margin:auto;
+    background-color:whitesmoke;;
+}
+
+/*Logo*/
+#logo{
+    width:80px;
+    height:80px;
+    border-style:dashed;
+    border-width:1px;
+    background-color:whitesmoke;
+    position:relative;
+    top:10px;
+    left:15px;
+    float:left;
+}
+
+#vesika{
+width:80px;
+height:81px;
+}
+
+/*Sosyal medya ikonları*/
+#sosyal{
+    width:160px;
+    height:50px;
+    border-style:solid;
+    border-width:1px;
+    background-color:whitesmoke;
+    float:right;
+    position:relative;
+    top:23px;
+    right:11px;
+    box-shadow:10px 10px 15px grey;
+}
+
+#sosyal{
+    float:right;
+    margin-left:10px;
+}
+
+#tasarım{
+    width:50px;
+    height:50px;
+}
+
+/*Anamenü*/
+
+#anamenu{
+    width:900px;
+    height:50px;
+    border-style:solid;
+    border-width:1px;
+    margin:auto;
+    background-color:deepskyblue;
+}
+
+#anamenu ul {
+    list-style-type:none;
+}
+
+#anamenu ul li{
+    width:84px;
+    border-style:solid;
+    border-width:px;
+    border-radius:14px;
+    background-color:lightcyan;
+    border-color:lightseagreen;
+    float:left;
+    padding:2px;
+    margin-left:3px;
+    position:relative;
+    top:10px;
+    text-align:center;
+}
+
+#anamenu ul a{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration:none;
+    font-weight:bolder;
+    font-size:14px;
+}
+
+#anamenu ul a:link{
+    color:blue;
+}
+
+#anamenu ul a:visited{
+    color:grey;
+}
+
+#anamenu ul a:hover{
+    color:red;
+    text-decoration:underline;
+}
+
+#anamenu ul a:active{
+    color:rosybrown;
+}
+
+/*İçerik ve Yan menü komutları*/
+
+#icerik{
+    width:600px;
+    min-height:400px;
+    border-style:solid;
+    border-width:1px;
+    background-color:whitesmoke;
+    float:left;
+}
+
+#yanmenu{
+    width:296px;
+    min-height:400px;
+    border-style:solid;
+    border-width:1px;
+    background-color:cornflowerblue;
+    float:right;
+}
+
+.resim{
+    float:left;
+    width:100px;
+    margin:8px;
+}
+.metin{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+    color:black;
+}
+
+.baslik{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bolder;
+    font-size:22px;
+    color:red;
+}
+
+/*Altmenü*/
+#altmenu{
+    width:900px;
+    height:50px;
+    border-style:double;
+    border-width:1px;
+    background-color:cornflowerblue;
+    float:left;
+    text-align:center;
+    color:black;
+}
+
+#altmenu a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:13px;
+    font-weight:bolder;
+    color:black;
+    text-decoration:none;
+}
+
+#altmenu a:hover{
+    color:green;
+    text-decoration:underline;
+}
+
+.kucukmetin{
+    font-size:14px;
+}
+
+/*/#kutu3{
+    
+    border-style:solid;
+    border-color:red;
+    border-width:10px;
+    width:150px;
+    height:50px;
+    float:left;
+    margin:17px;
+    background-color:yellow;
+}
+*/
+.formeleman{ 
+    color:black;
+    font-size:14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:whitesmoke;
+    border-color:cornflowerblue;
+    border-width:6px;
+    margin:7px;
+    padding:8px;
+    border-style:double;
+    box-shadow:10px 10px 15px grey;
+}
